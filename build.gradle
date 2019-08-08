@@ -1,0 +1,24 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.6.RELEASE'
+	id 'java'
+    id 'com.google.cloud.tools.jib' version '1.4.0'
+
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.nytimes.ecomm.aristo'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile ("com.oracle:ojdbc7:12.2.0.1")
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
