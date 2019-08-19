@@ -1,7 +1,7 @@
-package com.nytimes.ecomm.aristo.springdemo.controllers;
+package com.mohbajal.springdemo.controllers;
 
-import com.nytimes.ecomm.aristo.springdemo.dto.SelectDataInput;
-import com.nytimes.ecomm.aristo.springdemo.service.DataProvider;
+import com.mohbajal.springdemo.dto.SelectDataInput;
+import com.mohbajal.springdemo.service.DataProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.nytimes.ecomm.aristo.springdemo.entity;
+package com.mohbajal.springdemo.entity;
 
 import javax.persistence.*;
 

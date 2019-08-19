@@ -1,13 +1,12 @@
-package com.nytimes.ecomm.aristo.springdemo.service;
+package com.mohbajal.springdemo.service;
 
-import com.nytimes.ecomm.aristo.springdemo.dto.SelectDataInput;
-import com.nytimes.ecomm.aristo.springdemo.entity.Department;
-import com.nytimes.ecomm.aristo.springdemo.repositories.DepartmentRepository;
+import com.mohbajal.springdemo.dto.SelectDataInput;
+import com.mohbajal.springdemo.entity.Department;
+import com.mohbajal.springdemo.repositories.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
-import javax.sql.DataSource;
 import java.util.List;
 import java.util.Map;
 

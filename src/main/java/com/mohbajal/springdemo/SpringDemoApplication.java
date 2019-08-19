@@ -1,4 +1,4 @@
-package com.nytimes.ecomm.aristo.springdemo;
+package com.mohbajal.springdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.nytimes.ecomm.aristo.springdemo;
+package com.mohbajal.springdemo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,6 +1,6 @@
-package com.nytimes.ecomm.aristo.springdemo.repositories;
+package com.mohbajal.springdemo.repositories;
 
-import com.nytimes.ecomm.aristo.springdemo.entity.Department;
+import com.mohbajal.springdemo.entity.Department;
 import org.springframework.data.repository.CrudRepository;
 
 /**

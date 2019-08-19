@@ -1,4 +1,4 @@
-package com.nytimes.ecomm.aristo.springdemo.dto;
+package com.mohbajal.springdemo.dto;
 
 /**
  * Created by 211008 on 8/1/19.
